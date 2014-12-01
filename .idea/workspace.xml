@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="" />
+    <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProblemSolving/Dietrick_Terry_ProblemSolving.docx" afterPath="$PROJECT_DIR$/ProblemSolving/Dietrick_Terry_ProblemSolving.docx" />
+    </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
