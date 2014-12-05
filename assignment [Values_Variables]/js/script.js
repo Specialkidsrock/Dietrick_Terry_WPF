@@ -1,10 +1,9 @@
-// JavaScript
+// Defining Variables
 
-var yearBorn = 1955;
+var age; //declaration
+age = 38; //definition
+//storage container = value
 
-/*
-console.log("Hello World!");
-console.log(yearBorn);
-    */
+var yearOfBirth = 1970; //declaring and defining on the same line
 
-alert(yearBorn)
+
