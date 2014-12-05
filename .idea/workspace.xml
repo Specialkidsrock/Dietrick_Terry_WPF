@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp5.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Beginning Js Book Exercises/chp2_exmp1.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Beginning Js Book Exercises/chp2_exmp2.xhtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
@@ -28,11 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ch2_exmp4.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml">
+      <file leaf-file-name="ch2_exmp5.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp5.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.69473684" vertical-offset="0" max-vertical-offset="475">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phrase.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5369" max-vertical-offset="6015">
+              <caret line="369" column="16" selection-start-line="369" selection-start-column="16" selection-end-line="369" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -57,6 +68,7 @@
         <option value="$PROJECT_DIR$/assignment [Values_Variables]/js/script.js" />
         <option value="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" />
         <option value="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml" />
+        <option value="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp5.xhtml" />
       </list>
     </option>
   </component>
@@ -276,30 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch1_exmp3.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18947369" vertical-offset="0" max-vertical-offset="475">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/chp2_exmp2.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8210526" vertical-offset="0" max-vertical-offset="525">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/chp2_exmp1.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30737704" vertical-offset="0" max-vertical-offset="488">
@@ -332,6 +320,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch1_exmp3.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="360">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31578946" vertical-offset="0" max-vertical-offset="475">
@@ -340,10 +344,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5369" max-vertical-offset="6015">
+          <caret line="369" column="16" selection-start-line="369" selection-start-column="16" selection-end-line="369" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp5.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69473684" vertical-offset="0" max-vertical-offset="475">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
