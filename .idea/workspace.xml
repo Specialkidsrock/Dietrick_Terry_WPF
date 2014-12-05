@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Concatenation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Concatenation/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Concatenation/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Casting/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Casting/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/Casting/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment [Expressions]/Concatenation/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20507812" vertical-offset="0" max-vertical-offset="512">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment [Expressions]/Casting/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3006012" vertical-offset="0" max-vertical-offset="499">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,6 +89,7 @@
         <option value="$PROJECT_DIR$/assignment [Expressions]/PEMDAS/js/script.js" />
         <option value="$PROJECT_DIR$/assignment [Expressions]/Expressions with Arrays/js/script.js" />
         <option value="$PROJECT_DIR$/assignment [Expressions]/Concatenation/js/script.js" />
+        <option value="$PROJECT_DIR$/assignment [Expressions]/Casting/js/script.js" />
       </list>
     </option>
   </component>
@@ -86,8 +97,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="702" />
-    <option name="y" value="204" />
+    <option name="x" value="446" />
+    <option name="y" value="380" />
     <option name="width" value="891" />
     <option name="height" value="609" />
   </component>
@@ -161,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Concatenation" />
+              <option name="myItemId" value="Casting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -179,7 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Concatenation" />
+              <option name="myItemId" value="Casting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -278,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="204" width="891" height="609" extended-state="0" />
+    <frame x="446" y="380" width="891" height="609" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,8 +524,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment [Expressions]/Concatenation/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20507812" vertical-offset="0" max-vertical-offset="512">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment [Expressions]/Casting/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3006012" vertical-offset="0" max-vertical-offset="499">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
