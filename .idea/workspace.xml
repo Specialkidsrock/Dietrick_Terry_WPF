@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment [Expressions]/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment [Expressions]/js/script.js" afterPath="$PROJECT_DIR$/assignment [Expressions]/js/script.js" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment [Expressions]/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03006012" vertical-offset="0" max-vertical-offset="499">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24048096" vertical-offset="0" max-vertical-offset="499">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -167,10 +165,15 @@
       <recent name="$PROJECT_DIR$/assignment [Expressions]" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ch1_exmp2.html">
+  <component name="RunManager" selected="Node.js.script.js">
     <configuration default="false" name="ch1_exmp2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Dietrick_Terry_WPF/Beginning Js Book Exercises/ch1_exmp2.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/assignment [Expressions]/js">
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -210,12 +213,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ch1_exmp2.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.script.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ch1_exmp2.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ch1_exmp2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -412,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment [Expressions]/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03006012" vertical-offset="0" max-vertical-offset="499">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24048096" vertical-offset="0" max-vertical-offset="499">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
