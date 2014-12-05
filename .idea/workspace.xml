@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" afterPath="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ch2_exmp3.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml">
+      <file leaf-file-name="ch2_exmp4.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="475">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -54,6 +56,7 @@
         <option value="$PROJECT_DIR$/assignment [Values_Variables]/css/styles.css" />
         <option value="$PROJECT_DIR$/assignment [Values_Variables]/js/script.js" />
         <option value="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml" />
+        <option value="$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml" />
       </list>
     </option>
   </component>
@@ -331,8 +334,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp3.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789" vertical-offset="0" max-vertical-offset="475">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="0" max-vertical-offset="475">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beginning Js Book Exercises/ch2_exmp4.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="475">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
