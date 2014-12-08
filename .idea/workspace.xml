@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Expression_Worksheet/Discounts/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Expression_Worksheet/Discounts/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expression_Worksheet/Discounts/Discounts.xhtml" afterPath="$PROJECT_DIR$/Expression_Worksheet/Discounts/Discounts.xhtml" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="Discounts.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expression_Worksheet/Discounts/Discounts.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="488">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.76844263" vertical-offset="0" max-vertical-offset="488">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -686,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expression_Worksheet/Discounts/Discounts.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="488">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.76844263" vertical-offset="0" max-vertical-offset="488">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
