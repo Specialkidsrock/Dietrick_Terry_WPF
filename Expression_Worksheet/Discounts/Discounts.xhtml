@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Discounts</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    //Terry Dietrick 07 Dec 2014 Discounts
+
+    var itemPrice = 100.24; // sample item price
+    var itemDescription = "Awesome Coolguy ninja Statue"; // item description
+    var taxSales = 1.07; //sales tax
+    var discountPercent = 10; //item discount percentage
+    var itemPricewithtax = (itemPrice * taxSales * .9); //item multiplied by sales tax and .9 representing 10% discount
+    var itemPricenotax = (itemPrice * .9); // item multiplied without tax and .9 representing 10% discount
+
+    console.log("Your " + itemDescription + " was originally $" + itemPrice + ", but after a " + discountPercent + "% discount, it is now $" + itemPricenotax + " without tax, and $" + itemPricewithtax + " with tax.")
+
+</script>
+
+</body>
+</html>
