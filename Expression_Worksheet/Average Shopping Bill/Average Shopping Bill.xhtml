@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Average Shopping Bill</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    //Terry Dietrick 07 Dec 2014 Average Shopping Bill
+
+        var shoppingArray = new Array(); // establishes the array
+        shoppingArray[0] = 127; // week 1 total spent
+        shoppingArray[1] = 85;
+        shoppingArray[2] = 178;
+        shoppingArray[3] = 114;
+        shoppingArray[4] = 156;
+
+        var totalSpent = (shoppingArray[0] + shoppingArray[1] + shoppingArray[2] + shoppingArray[3] + shoppingArray[4]);
+        var weeklyAverage = (totalSpent / 5);
+
+        console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + weeklyAverage + " per week.");
+
+
+</script>
+
+</body>
+</html>
