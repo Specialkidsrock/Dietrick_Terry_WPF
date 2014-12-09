@@ -13,22 +13,19 @@
 
         //This will be used to estimate how many gallons of E85 I would need in a single racing season, and how much I would spend on that E85 fuel.
 
+        var greetingText = prompt("Welcome");
         var horsePower = prompt("How much horsepower is that sled layin' down?",600); //descriptive purposes only
         var racesAttending = prompt("How many races during this season will you attend?",10);
+        var passesMade = prompt("How many dyno tuning sessions will be needed to dial in your car?",2);
         var e85 = 2.64; // Current E85 fuel price per gallon average for USA pulled from e85prices.com
         var carFuelTankSize = (14/2); //Fuel tank size on the car, only filled to 7 gallons for race events to reduce weight;
 
         var totalGasSpent = (racesAttending * carFuelTankSize * e85); //Total gas spent on the season
-        var totalGallons =  (carFuelTankSize * racesAttending);
+        var totalGallons =  (carFuelTankSize * racesAttending); // Approximation on fuel for the race season in gallons
 
 
-        )
-        var shoppingArray = new Array(); // establishes the array
-        shoppingArray[0] = 127; // week 1 total spent on groceries
-        shoppingArray[1] = 85; // week 2 total spent on groceries
-        shoppingArray[2] = 178; // week 3 total spent on groceries
-        shoppingArray[3] = 114; // week 4 total spent on groceries
-        shoppingArray[4] = 156; // week 4 total spent on groceries
+
+
 
         var totalSpent = (shoppingArray[0] + shoppingArray[1] + shoppingArray[2] + shoppingArray[3] + shoppingArray[4]);
         // var total spent is equal to each element in the array addded up
