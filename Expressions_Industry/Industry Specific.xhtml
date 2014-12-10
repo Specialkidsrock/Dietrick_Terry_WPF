@@ -20,10 +20,10 @@
 
         var currentInput = prompt("Please enter the current value ",1); // prompts user for measured current (AMPS)
         var voltsInput = prompt(" Please enter the voltage value ",1); // prompts user for voltage measured.
-        alert("Your wattage would be " + voltsInput * currentInput + "watts."); // shows quick calculation of wattage for the user.
+        alert("Your wattage would be " + voltsInput * currentInput + " watts."); // shows quick calculation of wattage for the user.
+        var wattsInput = prompt("Please input the wattage value calculated previously.",1); // prompts the user for the watts, or power
 
-        var wattsInput = prompt("Please input the wattage value",1); // prompts the user for the watts, or power
-        currentInput = prompt("Please enter another current value",0); // prompts the user for the current
+
         var resistanceCalc = (voltsInput / currentInput); // Calculates resistance (ohms) using inputted values
         var powerCalc = (voltsInput * currentInput); // Calculates power in watts
         var currentCalc = (wattsInput / voltsInput); // Calculates the current to compare with the inputted current
