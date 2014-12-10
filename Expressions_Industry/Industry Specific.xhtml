@@ -25,7 +25,7 @@
         var resistanceCalc = (voltsInput / currentInput); // Calculates resistance (ohms) using inputted values
         var powerCalc = (voltsInput * currentInput); // Calculates power in watts
         var currentCalc = (powerCalc / voltsInput); // Calculates the current to compare with the inputted current
-        var voltageCalc = Math.sqrt(currentCalc); // Calculates the voltage by using the square root of the calculated current
+        var voltageCalc = Math.sqrt(powerCalc * resistanceCalc); // Calculates the voltage by using the square root of the calculated current
 
         var electricalArray = new Array(); // establishes the array used to store the electrical values both inputted and calculated
         electricalArray[0] = currentInput; // stores the current value the user inputted
