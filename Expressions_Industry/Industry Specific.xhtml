@@ -14,14 +14,16 @@
         // This will be a simple ohm's law calculator that I would use in my job as an electrician in the army.
 
         var greetingText = "Welcome to my "; //First phrase of welcome message
-        var greetingCalculator = "Ohm's Law calculator."; // Second phrase of welcome message
+        var greetingCalculator = "Ohm's Law calculator, it's kind of a big deal. "; // Second phrase of welcome message
         var concatString = greetingText + "" + greetingCalculator; // concatenates the two welcome strings together.
         alert(concatString); //alert to pop up and welcome the user
 
-        var currentInput = prompt("Please enter the current value ",0); // prompts user for measured current (AMPS)
-        var voltsInput = prompt(" Please enter the voltage value ",0); // prompts user for voltage measured.
-        var wattsInput = prompt("Please input the wattage value",0); // prompts the user for the watts, or power
+        var currentInput = prompt("Please enter the current value ",1); // prompts user for measured current (AMPS)
+        var voltsInput = prompt(" Please enter the voltage value ",1); // prompts user for voltage measured.
+        alert("Your wattage would be " + voltsInput * currentInput + "watts."); // shows quick calculation of wattage for the user.
 
+        var wattsInput = prompt("Please input the wattage value",1); // prompts the user for the watts, or power
+        currentInput = prompt("Please enter another current value",0); // prompts the user for the current
         var resistanceCalc = (voltsInput / currentInput); // Calculates resistance (ohms) using inputted values
         var powerCalc = (voltsInput * currentInput); // Calculates power in watts
         var currentCalc = (wattsInput / voltsInput); // Calculates the current to compare with the inputted current
@@ -39,7 +41,7 @@
 
         console.log("Your inputted voltage of " + voltsInput + " volts and inputted current value of " + currentInput +" amps, will result in " + resistanceCalc + " ohms and " + powerCalc + " watts" ); // Displays calculated results.
         console.log("The calculated current and voltage of " + electricalArray[4] + " amps and " + electricalArray[5] + " volts, show that the formula works! "); // Displays calculated values of current and volts to show the user the math works!
-        console.log("The wattage input was " + wattsInput + " watts which is equal to " + powerCalc + " watts calculated!")
+
 
 </script>
 
