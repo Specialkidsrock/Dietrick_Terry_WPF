@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Industry/Industry Specific.xhtml" afterPath="$PROJECT_DIR$/Expressions_Industry/Industry Specific.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Personal/Personal.xhtml" afterPath="$PROJECT_DIR$/Expressions_Personal/Personal.xhtml" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Industry Specific.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Industry/Industry Specific.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86633664" vertical-offset="0" max-vertical-offset="705">
-              <caret line="35" column="87" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.7673267" vertical-offset="105" max-vertical-offset="750">
+              <caret line="38" column="127" selection-start-line="38" selection-start-column="127" selection-end-line="38" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -719,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/Industry Specific.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86633664" vertical-offset="0" max-vertical-offset="705">
-          <caret line="35" column="87" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.7673267" vertical-offset="105" max-vertical-offset="750">
+          <caret line="38" column="127" selection-start-line="38" selection-start-column="127" selection-end-line="38" selection-end-column="127" />
           <folding />
         </state>
       </provider>
