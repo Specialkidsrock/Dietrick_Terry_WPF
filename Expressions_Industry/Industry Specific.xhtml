@@ -20,7 +20,9 @@
 
         var currentInput = prompt("Please enter the current value ",0); // prompts user for measured current (AMPS)
         var voltsInput = prompt(" Please enter the voltage value ", 0); // prompts user for voltage measured.
-        var resistanceCalc = (voltsInput / currentInput);
+
+        var resistanceCalc = (voltsInput / currentInput); // Calculates resistance (ohms) using inputted values
+        var powerCalc = (voltsInput * currentInput); // Calculates power in watts
 
 
         var electricalArray = new Array(); // establishes the array
