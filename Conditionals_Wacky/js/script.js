@@ -15,7 +15,9 @@ if(milesRan != 0 && timeRan == ""){
  timeRan = prompt("Please enter a larger numerical value for how long it took you to run, unless you are Usain Bolt!!",20);
  milesRan = prompt("Please enter the miles you ran.",2);
 }
-if(milesRan >= 1 && timeRan >= 5) {
+if(milesRan == 0 || milesRan == null){
+ milesRan = prompt("Please enter a valid number greater then 0",1);
+}else if(milesRan >= 1 && timeRan >= 5) {
  console.log("You burned " + totalCalorieburn + " calories on this run");
  console.log("You ran an average of " + avgminperMile + " minutes per mile!");
 
