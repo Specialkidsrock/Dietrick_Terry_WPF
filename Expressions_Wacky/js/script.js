@@ -40,6 +40,6 @@ Expressions Wacky
     catfoodarray[7] = foodCost;
 
     console.log("Your cats in a year would eat " + parseInt(fatCat) + "lbs of food in a year!"); //message to the user in the console that calculated how much food in lbs their cat eats in a year.
-    console.log("The cost of the food would be $" + parseInt((catfoodarray[7] * catfoodarray[6]) / 16)  + " dollars a year!"); // this line calculates how much food in dollars their cats eat
+    console.log("The cost of the food would be $" + parseInt((catfoodarray[7] * catfoodarray[6]) / 16)  + " a year!"); // this line calculates how much food in dollars their cats eat
     console.log("Your cat has eaten " + parseInt(catfoodarray[2] * catfoodarray[6]) + "lbs of food in their lifetime!"); // this calculates how much food the cat has eaten in lbs in their lifetime so far!
 
