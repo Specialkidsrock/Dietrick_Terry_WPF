@@ -3,12 +3,14 @@
 Conditionals Industry
  */
 
-alert("Is your monitor 4K resolution? Enter the values ");
-var horizontalPixelsvalue = prompt("Please enter your monitors vertical pixel value", 800);
-var verticalPixelvalue = prompt("Please enter your monitors horizontal pixel value",1200);
-var totalResolution = (horizontalPixelsvalue * verticalPixelvalue);
-var uhdResolution = 8294400;
-var yourDisplay;
+//This will calculate the resolution of your monitor and check to see if it meets 4k resolution standards
+
+alert("Is your monitor 4K resolution? Enter the values "); //informs the user what the calculator does
+var horizontalPixelsvalue = prompt("Please enter your monitors vertical pixel value", 800); // prompts the user for horizontal pixel values
+var verticalPixelvalue = prompt("Please enter your monitors horizontal pixel value",1200); //prompts the user for vertical pixel values
+var totalResolution = (horizontalPixelsvalue * verticalPixelvalue); //calculates the total resolution
+var uhdResolution = 8294400; //the minimum resolution required to be considered 4k resolution
+var yourDisplay; // will be used to display if the user's monitor is 4k resolution or not.
 
 
 if(horizontalPixelsvalue == "" || horizontalPixelsvalue == null){
