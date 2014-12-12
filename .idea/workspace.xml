@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/Group 2/Average Shopping Bill.xhtml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/Group 1/LastChanceForGas.xhtml" afterPath="$PROJECT_DIR$/Conditionals_Worksheet/Group 1/LastChanceForGas.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/Group 1/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Worksheet/Group 1/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/Group 2/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Worksheet/Group 2/js/script.js" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
