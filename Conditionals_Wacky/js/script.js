@@ -9,10 +9,10 @@ var milesRan = prompt("Please enter your last run length in miles",3); //prompts
 var timeRan = prompt("How long did it take you to run, please enter in rounded up minutes",24); // prompts the user for the minutes they completed their run in, whole numbers
 var caloriesperMile = 124; // average number of calories burned per mile
 
-if(milesRan == "" || milesRan == 0){
- milesRan = prompt("Please enter the miles you ran.",2);
+if(milesRan == "" || milesRan == 0){ // if the miles ran box has nothing, or a zero in it, it kicks it back
+ milesRan = prompt("Please enter the miles you ran.",2); // prompts the user to enter a value larger then 0
 
-}else if(timeRan == "" || timeRan == 0){
+}else if(timeRan == "" || timeRan == 0){ //if the time ran is blank or 0 it kicks it back
  timeRan = prompt("Please enter a valid number greater then 0 for time ran",1); //used for input validation to ensure there is no other values then numerical
 }
 
