@@ -5,11 +5,11 @@ Conditionals Wacky
 
 // This will calculate how many calories you can burn running and how feet per minute you are running!
 
-var milesRan = prompt("Please enter your last run length in miles",3);
-var timeRan = prompt("How long did it take you to run, please enter in rounded up minutes",24);
-var caloriesperMile = 124;
-var totalCalorieburn = caloriesperMile * milesRan;
-var avgminperMile = timeRan / milesRan;
+var milesRan = prompt("Please enter your last run length in miles",3); //prompts the user for the miles they ran
+var timeRan = prompt("How long did it take you to run, please enter in rounded up minutes",24); // prompts the user for the minutes they completed their run in, whole numbers
+var caloriesperMile = 124; // average number of calories burned per mile
+var totalCalorieburn = caloriesperMile * milesRan; //total calorie burn calculation
+var avgminperMile = timeRan / milesRan; //average minute per mile calculation
 
 if(milesRan != 0 && timeRan == ""){
  timeRan = prompt("Please enter a larger numerical value for how long it took you to run, unless you are Usain Bolt!!",20);
