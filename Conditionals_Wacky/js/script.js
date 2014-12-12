@@ -15,7 +15,6 @@ if(milesRan == "" || milesRan == 0){ // if the miles ran box has nothing, or a z
 }else if(timeRan == "" || timeRan == 0){ //if the time ran is blank or 0 it kicks it back
  timeRan = prompt("Please enter a valid number greater then 0 for time ran",1); //used for input validation to ensure there is no other values then numerical
 }
-
 var totalCalorieburn = caloriesperMile * milesRan; //total calorie burn calculation
 var avgminperMile = timeRan / milesRan; //average minute per mile calculation
 
