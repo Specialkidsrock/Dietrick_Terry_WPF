@@ -12,11 +12,11 @@ var timetoDrive = prompt("How long does it take to drive to work in minutes?",30
 
 if(milesWork == "" || milesWork == null){ // if mileswork variable is equal to blank or null values it prompts the user to re enter the value
  milesWork = prompt("Please enter a number value for miles you drove to work!");
-}else if(timetoDrive == "" || timetoDrive == null){
+}else if(timetoDrive == "" || timetoDrive == null){ //if timetodrive variable is blank or null it prompts the user to enter a numerical value
  timetoDrive = prompt("Please enter a numerical value for the time it took you to drive to work in minutes!");
 }
 
-var avgMPH = parseInt(milesWork)/parseInt(timetoDrive) * 60;
+var avgMPH = parseInt(milesWork)/parseInt(timetoDrive) * 60; // calculates the average mile per hour the individual drve
 
-console.log("You drove an average of " + parseInt(avgMPH) + " miles per hour on your way to work!");
+console.log("You drove an average of " + parseInt(avgMPH) + " miles per hour on your way to work!"); // displays the average mph the individual drove on their way to work
 
