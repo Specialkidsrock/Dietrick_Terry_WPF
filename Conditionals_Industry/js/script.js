@@ -15,10 +15,14 @@ var yourDisplay; // will be used to display if the user's monitor is 4k resoluti
 
 if(horizontalPixelsvalue == "" || horizontalPixelsvalue == null){ //this line is used for input validation
  horizontalPixelsvalue = prompt("Please enter a numerical value for your horizontal pixels!!");
+ // prompts the user for a correct numerical value for pixels
 
-}else if(verticalPixelvalue == "" || verticalPixelvalue == null){
+}else if(verticalPixelvalue == "" || verticalPixelvalue == null){ // used for input validation
  verticalPixelvalue = prompt("Please enter a numerical value for your vertical pixel amount!");
+ // prompts the user for a correct numerical value for pixels
 }
 
 yourDisplay = (totalResolution < uhdResolution) ? "Your monitor is not a 4K resolution monitor." : "Your monitor is a 4k resolution monitor!";
-console.log(yourDisplay);
+// ternary that compares the totalresolution to the uhdresolution value to determine if your monitor is 4k or not
+
+console.log(yourDisplay); //prints the result of the above operation
