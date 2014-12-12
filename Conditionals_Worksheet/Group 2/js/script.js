@@ -1,19 +1,35 @@
-/*Terry Dietrick 07 Dec 2014 Average Shopping Bill
-
+/*Terry Dietrick 11 Dec 2014
+ SDI Section 04WDD
+ Grade in Percent
  */
 
- var shoppingArray = new Array(); // establishes the array
- shoppingArray[0] = 127; // week 1 total spent on groceries
- shoppingArray[1] = 85; // week 2 total spent on groceries
- shoppingArray[2] = 178; // week 3 total spent on groceries
- shoppingArray[3] = 114; // week 4 total spent on groceries
- shoppingArray[4] = 156; // week 4 total spent on groceries
+//This calculates your letter grade by your inputted percentage!
 
- var totalSpent = (shoppingArray[0] + shoppingArray[1] + shoppingArray[2] + shoppingArray[3] + shoppingArray[4]);
- // var total spent is equal to each element in the array addded up
- var weeklyAverage = (totalSpent / 5); // divides the total by 5, or the number of weeks to get the average
-
- console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + weeklyAverage + " per week.");
- // prints the total spent over 5 weeks and the average spent each week.
+var percentGrade = prompt("Please enter your grade percentage",85);
 
 
+if(percentGrade >=95){
+ //this is an A + grade
+ console.log("You have a " + percentGrade + "% which means you have earned A+ in the class!");
+
+}else if(percentGrade >= 90 && percentGrade <= 94 ){
+ console.log("You have a " + percentGrade + "% which means you have earned A in the class!");
+
+}else if(percentGrade >= 85 && percentGrade <= 89 ){
+ console.log("You have a " + percentGrade + "% which means you have earned B+ in the class!");
+
+}else if(percentGrade >= 80 && percentGrade <=84){
+ console.log("You have a " + percentGrade + "% which means you have earned B in the class!");
+
+}else if(percentGrade >= 76 && percentGrade <= 79){
+ console.log("You have a " + percentGrade + "% which means you have earned C+ in the class!");
+
+}else if(percentGrade >= 73 && percentGrade <= 75){
+ console.log("You have a " + percentGrade + "% which means you have earned C in the class!");
+
+}else if(percentGrade >= 70 && percentGrade <= 72){
+ console.log("You have a " + percentGrade + "% which means you have earned D in the class!");
+
+}else if(percentGrade <= 69){
+ console.log("You have a " + percentGrade + "% which means you have earned a failing grade in the class!");
+}
