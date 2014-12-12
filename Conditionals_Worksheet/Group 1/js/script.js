@@ -1,19 +1,15 @@
-/*Terry Dietrick 07 Dec 2014 Average Shopping Bill
-
+/*Terry Dietrick 11 Dec 2014
+SDI Section 04WDD
+Last Chance for Gas
  */
 
- var shoppingArray = new Array(); // establishes the array
- shoppingArray[0] = 127; // week 1 total spent on groceries
- shoppingArray[1] = 85; // week 2 total spent on groceries
- shoppingArray[2] = 178; // week 3 total spent on groceries
- shoppingArray[3] = 114; // week 4 total spent on groceries
- shoppingArray[4] = 156; // week 4 total spent on groceries
+ //This determines if you can make it across the desert with your current fuel
+ var gasEfficiency = 20; //This is your miles per gallon your car gets
+ var gaugeReading = 75; //this is your gas gauge reading
+ var gastankSize = 14; //this is your gas tank size in gallons
 
- var totalSpent = (shoppingArray[0] + shoppingArray[1] + shoppingArray[2] + shoppingArray[3] + shoppingArray[4]);
- // var total spent is equal to each element in the array addded up
- var weeklyAverage = (totalSpent / 5); // divides the total by 5, or the number of weeks to get the average
-
- console.log("You have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + weeklyAverage + " per week.");
- // prints the total spent over 5 weeks and the average spent each week.
-
-
+if(gastankSize * .75 * 20 >= 200){
+ console.log("Yes you can make it without stopping for gas!");
+}else{
+ console.log("No you only have " + gastankSize *.75 + " gallons of gas in your tank, you better get gas now!");
+}
