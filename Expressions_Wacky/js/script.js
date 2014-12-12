@@ -18,14 +18,14 @@ Expressions Wacky
     var howmuchFood = prompt("How many times a day do you feed them?");
     var howoldCats = prompt("How old are your cat(s)?");
 
-    var servingSize = 75; // 75 grams is the average feeding size for a regular cat daily
+    var servingSize = 110; // 75 grams is the average feeding size for a regular cat daily
     var bagSize = 16; // The average cat food bag found online was 16 lbs.
     var bagCost = 18; // The average cost of a 16lb bag found online.
 
-    var totalfoodBag = (bagSize * 453.592); // there are 16 ounces in 1 lb, and 28.3 grams in one ounce. This shows how many grams in one 16lb cat food bag.
+    var totalfoodBag = (bagSize * 453.592); // there are 453.592 grams in 1 lb. This shows how many grams in one 16lb cat food bag.
     var totalCatfood = (servingSize * howManycats * howmuchFood); //calculates how much food in grams the cats eat daily
 
-    var fatCat = (parseInt(totalCatfood) * (totalfoodBag / 453.592) * 365 ); //total cat food consumed in lbs per year
+    var fatCat = ((totalfoodBag / totalCatfood) / 16 * 365  ); //total cat food consumed in lbs per year
     var foodCost = (18); //average cost of a bag of cat food
 
 
@@ -39,6 +39,6 @@ Expressions Wacky
     catfoodarray[6] = fatCat;
     catfoodarray[7] = foodCost;
 
-    console.log("Your cats in a year would eat " + fatCat + "lbs of food in a year!");
-    console.log("The cost of the food would be $" + (foodCost * fatCat) / 16 +" dollars a year!");
-
+    console.log("Your cats in a year would eat " + parseInt(fatCat) + "lbs of food in a year!");
+    console.log("The cost of the food would be $" + parseInt((catfoodarray[7] * catfoodarray[6]) / 16)  + " dollars a year!");
+    console.log("Your cat has eaten " + parseInt(catfoodarray[2] * catfoodarray[6]) + "lbs of food in their lifetime!");
