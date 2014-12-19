@@ -8,14 +8,32 @@ Functions - Industry
 
 
 var sdCardSize = prompt("Enter your SD Card size in GB",2);
-var pictureSize = prompt("How large is your average digital picture?");
-var picture = prompt("How man pictures have you taken?",34);
+var pictureSize = prompt("How large is your average digital picture?(In megabytes, MB)",12);
+var pictures = prompt("How man pictures have you taken?",120);
 
-var sdCard = function(pictures,pictureSize, mbtoGB) {
-    mbtoGB = 1000;
-    var totalspaceRequired = (pictures * pictureSize * mbtoGB);
-    return totalspaceRequired;
+gbtoMB = sdCardSize * 1000;
+
+totalPictures = gbtoMB / pictureSize - pictures;
+spaceUsed = totalPictures / gbtoMB * 100;
+
+console.log(" You could fit approximately " + parseInt(totalPictures) + " more pictures on this SD Card.");
+console.log("Your current pictures use about " + parseInt(spaceUsed) + "% of the space available on this SD Card.");
+
+var percentSpace = convertToFraction(.2);
+
+
+function convertToFraction(fraction) {
+    return (fraction * 100) + "%";
 }
 
-var calcSpace = ;
-console.log(calcSpace);
+console.log(percentSpace);
+
+
+var calcSpace = function(a, b, c) {
+    var gbToMB = a * 1000;
+    var totalspaceRequired = ((gbToMB / b) - c);
+    return (totalspaceRequired);
+}
+
+console.log(parseInt(calcSpace(2,12,120)));
+
