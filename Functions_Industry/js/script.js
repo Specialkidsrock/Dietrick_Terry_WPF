@@ -13,17 +13,17 @@ var pictures = prompt("How man pictures have you taken?",120); // Asks the user 
 
 gbtoMB = sdCardSize * 1000; // Converts the SD Card size from MB to GB
 
-totalPictures = gbtoMB / pictureSize - pictures;
-spaceUsed = totalPictures / gbtoMB * 100;
+totalPictures = gbtoMB / pictureSize - pictures; // Calculates how many more pictures total the user could fit on their SD Card
+spaceUsed = totalPictures / gbtoMB * 100; // This calculates the percentage of used space on the SD Card currently
 
 console.log(" You could fit approximately " + parseInt(totalPictures) + " more pictures on this SD Card.");
 console.log("Your current pictures use about " + parseInt(spaceUsed) + "% of the space available on this SD Card.");
 
-var percentSpace = convertToFraction(.2);
+var percentSpace = convertToFraction(.2); //invoke for the function convertToFraction
 
 
-function convertToFraction(fraction) {
-    return (fraction * 100) + "%";
+function convertToFraction(fraction) {//anonymous function to convert a decimal to a fraction
+    return (fraction * 100) + "%"; // 
 }
 
 console.log(percentSpace);
