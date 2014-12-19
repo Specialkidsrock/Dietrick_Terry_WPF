@@ -1,22 +1,20 @@
 /*Terry Dietrick
 18 Dec 2014
 SDI Section 04WDD
-Functions - Function vs Procedure
+Functions - Anonymous Functions
  */
 
-//this is a function
 
-function calcAreaF(width, height){
+
+var calcArea = function(width, height){ // defining
+ //code the function runs
     var area = width * height;
-    return area; //function spitting the information out
-
+    return area;
 }
 
+var a = calcArea(20, 30); //invoking
 
-// This is a procedure
+console.log(a);
 
-function calcAreaP(width, height){
-    var area = width * height;
-    console.log(area);  //no return
-}
+
 
