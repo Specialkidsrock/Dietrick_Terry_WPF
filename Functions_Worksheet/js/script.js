@@ -9,7 +9,7 @@ Functions - Worksheet
 // The circumference of a circle = 2 * (pie) * radius
 
 
-var totalCirc = calcCircumference(5);
+var totalCirc = calcCircumference(3); //Establishes the result variable
 
 
 function calcCircumference(radius){ // function used to solve the equation
@@ -20,4 +20,5 @@ function calcCircumference(radius){ // function used to solve the equation
 
 
 console.log(" The circumference of the circle is " + totalCirc + ".");
+//prints the circumference to the console using the result variable
 
