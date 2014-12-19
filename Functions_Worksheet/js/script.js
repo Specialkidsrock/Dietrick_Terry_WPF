@@ -32,5 +32,5 @@ function stingCalc(weight){ // creates the function inputting the argument into 
         return stingerKiller; // Spits the result to the result variable declared outside the function
 }
 
-console.log("It takes " + totalStings + " bee stings to kill this animal.");
+console.log("It takes " + parseInt(totalStings) + " bee stings to kill this animal.");
 // Prints the result variable, with the function result stored, to the console.
