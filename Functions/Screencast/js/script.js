@@ -1,16 +1,22 @@
 /*Terry Dietrick
 18 Dec 2014
 SDI Section 04WDD
-Functions - Returning Values
+Functions - Function vs Procedure
  */
 
-var total = calcArea(30, 20);
+//this is a function
 
-function calcArea(w, h){
-    var area = w * h;
-    console.log(area);
+function calcAreaF(width, height){
+    var area = width * height;
     return area; //function spitting the information out
 
 }
 
-console.log(total);
+
+// This is a procedure
+
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area);  //no return
+}
+
