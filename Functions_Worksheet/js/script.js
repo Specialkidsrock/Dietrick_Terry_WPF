@@ -22,3 +22,12 @@ function calcCircumference(radius){ // function used to solve the equation
 console.log(" The circumference of the circle is " + totalCirc + ".");
 //prints the circumference to the console using the result variable
 
+
+// Calculates how many bee stings are needed to kill an animal in a function
+
+var totalStings = stingCalc(150); // Establishes the result variable
+
+function stingCalc(weight){
+
+
+}
