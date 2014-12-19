@@ -11,18 +11,22 @@ var cityVsHwy = prompt("Do you drive mostly in the City or on the Hwy?" + " " + 
 var gasPrice = 2.477; //nationwide average cost as reported by AAA
 var totalCompare; // stores the conditional result
 
+while (cityVsHwy <= 0 || cityVsHwy == "" || cityVsHwy > 2) { //ensures the user inputs a valid value
+    cityVsHwy = prompt("Do you drive mostly in the City or on the Hwy?" + " " + "Enter 1 for city, or 2 for hwy"); //prompts the user for their driving habit
 
+}
 
 if(cityVsHwy = 1 && cityVsHwy != 2){ //compares the number input into the variable to see if it fits this criteria
 
     var mpgCity = prompt("What is your estimated MPG");// prompts the user to enter their estimated mpg in town
     var tanksizeCity = prompt("What is your gas tank size"); // prompts the user to enter their gas tank size
     var fillupMonthly = prompt("How many times do you fill up a month?");//prompts the user to enter how many times a month they fill up
-    var totalCostCity = gasPrice * tanksizeCity;
-    var totalGasCity = tanksizeCity * mpgCity;
-    var totalgasMonthly = tanksizeCity * mpgCity * fillupMonthly;
+    var totalCostCity = gasPrice * tanksizeCity; // how much it costs to fill up the users vehicle
+    var totalGasCity = tanksizeCity * mpgCity; // how many miles they could travel on a full tank
+    var totalgasMonthly = tanksizeCity * mpgCity * fillupMonthly; // calculates the total cost of gas monthly
     console.log("Your total cost to fill up your gas tank would be $" + totalCostCity + ".");
     console.log("You could travel approximately " + totalGasCity +" miles before you would run out of gas"); //informs the user how many miles until they need a refill
+    console.log("It will cost you $" + totalgasMonthly + " each month in gas with that many fill ups"); //displays the cost of monthly fill ups equation
 }else if(cityVsHwy = 2 || cityVsHwy != 1){ // compares the number input into this critera to see if it matches
     var mpgHwy = prompt("What is your estimated MPG"); // asks the user for their estimated mpg
     var tanksizeHwy = prompt("What is your gas tank size"); //asks the user for their gas tank size
