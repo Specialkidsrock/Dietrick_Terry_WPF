@@ -29,5 +29,5 @@ var totalStings = stingCalc(150); // Establishes the result variable
 
 function stingCalc(weight){ // creates the function inputting the argument into the parameter of the function
         var stingerKiller = 8.666666667 * (weight); // calculates how many stings per pound are needed to kill an animal
-        return stingerKiller;
+        return stingerKiller; // Spits the result to the result variable declared outside the function
 }
