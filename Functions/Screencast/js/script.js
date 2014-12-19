@@ -1,10 +1,10 @@
 /*Terry Dietrick
 18 Dec 2014
 SDI Section 04WDD
-Functions - Basic Structure
+Functions - Function Execution
  */
 
-//This
+
 
 function outptMsg(){
     console.log("Hello World");
@@ -16,3 +16,7 @@ function calcArea(){
     var area = width * height;
     console.log(area);
 }
+
+calcArea();
+calcArea();
+calcArea();
