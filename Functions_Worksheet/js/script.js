@@ -31,3 +31,5 @@ function stingCalc(weight){ // creates the function inputting the argument into 
         var stingerKiller = 8.666666667 * (weight); // calculates how many stings per pound are needed to kill an animal
         return stingerKiller; // Spits the result to the result variable declared outside the function
 }
+
+console.log("It takes " + totalStings + " bee stings to kill this animal.");
