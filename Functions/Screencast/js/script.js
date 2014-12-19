@@ -1,22 +1,17 @@
 /*Terry Dietrick
 18 Dec 2014
 SDI Section 04WDD
-Functions - Variable Scope
+Functions - Parameters and Arguments
  */
 
 
 
-var width = 5;
-
-
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    //console.log(area);
+function dogYears(age = 4){ //parameters
+    var age = 4;
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.");
 }
 
-calcArea();
-console.log(width);
-
-
+var age1 = 4;
+dogYears(age1); //arguments
+dogYears(6);
