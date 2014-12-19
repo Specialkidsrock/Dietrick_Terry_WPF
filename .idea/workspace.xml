@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" afterPath="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
@@ -26,14 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions_Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="630">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Industry.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions/Screencast/Industry.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37128714" vertical-offset="0" max-vertical-offset="606">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignment [Expressions]/Casting/js/script.js" />
         <option value="$PROJECT_DIR$/assignment [Expressions]/Assignment Operators/js/script.js" />
         <option value="$PROJECT_DIR$/Expression_Worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Expression_Worksheet/Dog Years/index.html" />
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/Functions/Screencast/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Worksheet/Functions Worksheet.xhtml" />
         <option value="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
+        <option value="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" />
       </list>
     </option>
   </component>
@@ -758,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Screencast/Industry.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32178217" vertical-offset="0" max-vertical-offset="606">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Wacky.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
@@ -820,11 +823,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="630">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Screencast/Industry.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37128714" vertical-offset="0" max-vertical-offset="606">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
