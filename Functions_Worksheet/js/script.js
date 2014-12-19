@@ -33,3 +33,4 @@ function stingCalc(weight){ // creates the function inputting the argument into 
 }
 
 console.log("It takes " + totalStings + " bee stings to kill this animal.");
+// Prints the result variable, with the function result stored, to the console.
