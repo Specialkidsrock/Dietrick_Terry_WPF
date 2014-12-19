@@ -19,7 +19,7 @@ spaceUsed = totalPictures / gbtoMB * 100; // This calculates the percentage of u
 console.log(" You could fit approximately " + parseInt(totalPictures) + " more pictures on this SD Card."); // Displays to the user how many more pictures they can fit on their SD Car
 console.log("Your current pictures use about " + parseInt(spaceUsed) + "% of the space available on this SD Card."); //Displays the current percentage of spaced used on the SD Card.
 
-var percentSpace = convertToFraction(.2); //invoke for the function convertToFraction
+var percentSpace = convertToFraction(.02); //invoke for the function convertToFraction
 
 
 function convertToFraction(fraction) {//anonymous function to convert a decimal to a fraction
@@ -35,5 +35,5 @@ var calcSpace = function(a, b, c) { //Defined a 3 parameter function to solve fo
     return (totalspaceRequired); //Spits the value of totalSpaceRequired variable out to an invoke call
 }
 
-console.log(parseInt(calcSpace(2,12,120))); // Invokes the function for what value was calculated and parses the number for a whole integer.
+console.log(" You could fit " + parseInt(calcSpace(2,12,120)) + " more pictures!"); // Invokes the function for what value was calculated and parses the number for a whole integer.
 
