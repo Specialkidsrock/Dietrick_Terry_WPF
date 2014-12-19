@@ -25,7 +25,7 @@ console.log(" The circumference of the circle is " + totalCirc + ".");
 
 // Calculates how many bee stings are needed to kill an animal in a function
 
-var totalStings = stingCalc(150); // Establishes the result variable
+var totalStings = stingCalc(100); // Establishes the result variable
 
 function stingCalc(weight){ // creates the function inputting the argument into the parameter of the function
         var stingerKiller = 8.666666667 * (weight); // calculates how many stings per pound are needed to kill an animal
