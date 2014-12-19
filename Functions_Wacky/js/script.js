@@ -11,16 +11,22 @@ var yearsIn = prompt("How many years have you been in the Army?", 10);
 var yearsLeft = prompt("How many years do you think you have left before you decide to get out?", 2);
 var dayOfYear = prompt("What day of the year is it? (1-365)",353);
 var daysInaYear = 365;
-var minutesInaDay = 3600;
-var daysLeft;
-var daysIn;
-var hoursSpentIn;
+var hoursInaDay = 24;
+var daysLeft = yearsLeft * daysInaYear - dayOfYear;
+var daysIn = daysInaYear * yearsIn;
+var hoursSpentIn = hoursInaDay * daysIn;
 
-daysIn = daysInaYear * yearsIn;
-daysLeft = yearsLeft * daysInaYear - dayOfYear;
 
-console.log
 
-function depressing(longHours,yearsToGo){
 
+
+console.log("You have spent " + hoursSpentIn + " hours of your life in the Army!");
+console.log("You have " + daysLeft + " days left in the Army, or " + (daysLeft * hoursInaDay) + " hours left in the Army.");
+
+function depressing(longHours,daysToGo,longMinutes){
+        terribleHuh = longHours * daysToGo * longMinutes;
+        return (terribleHuh);
 }
+var x = depressing(24,377,3600);
+
+console.log(x);
