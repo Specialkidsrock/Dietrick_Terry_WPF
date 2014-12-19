@@ -13,13 +13,11 @@ var totalCirc = calcCircumference(5);
 
 
 function calcCircumference(radius){ // function used to solve the equation
-        var circumference = radius * Math.PI * 2;
-        return circumference;
-        console.log("The circumference of the circle is " + circumference + ".");
+        var circumference = radius * Math.PI * 2; //Math.PI used to represent PI instead of typing the #
 
+        return circumference; // Spits the result out to the result variable
 }
 
 
 console.log(" The circumference of the circle is " + totalCirc + ".");
 
-calcCircumference(6);
