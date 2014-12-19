@@ -27,6 +27,6 @@ function depressing(longHours,daysToGo,longMinutes){
         terribleHuh = longHours * daysToGo * longMinutes;
         return (terribleHuh);
 }
-var x = depressing(24,377,3600);
+var totalMinutesLeft = depressing(24,377,1440);
 
-console.log(x);
+console.log("You will have " + totalMinutesLeft + " minutes left before you get out of the army or, " + (totalMinutesLeft / 60 / 24 ) + " hours left.");
