@@ -7,10 +7,9 @@ Functions - Personal
 // Calculates the cost of gas and miles per tank of gas based off your miles per gallon
 
 
-var cityVsHwy = prompt("Do you drive mostly in the City or on the Hwy?" + "<br>" + "Enter 1 for city, or 2 for hwy");
+var cityVsHwy = prompt("Do you drive mostly in the City or on the Hwy?" + " " + "Enter 1 for city, or 2 for hwy");
 var gasPrice = 2.477; //nationwide average cost as reported by AAA
-
-
+var totalCompare;
 
 
 
@@ -31,3 +30,5 @@ if(cityVsHwy = 1 && cityVsHwy != 2){
     console.log("You could travel approximately " + totalGasHWy + " miles before you ran out of gas.");
 }
 
+totalCompare = (mpgHwy < 25 || mpgCity < 20) ? "Time to invest in a more efficient vehicle" : "Stick to the highways!";
+console.log(totalCompare);
