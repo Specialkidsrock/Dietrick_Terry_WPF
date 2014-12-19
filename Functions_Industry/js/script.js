@@ -7,11 +7,11 @@ Functions - Industry
 // calculates the amount of pictures you can store on an SD card
 
 
-var sdCardSize = prompt("Enter your SD Card size in GB",2);
-var pictureSize = prompt("How large is your average digital picture?(In megabytes, MB)",12);
-var pictures = prompt("How man pictures have you taken?",120);
+var sdCardSize = prompt("Enter your SD Card size in GB",2); // Asks for user input on the size of their SD Card
+var pictureSize = prompt("How large is your average digital picture?(In megabytes, MB)",12); // Asks for user input on their average picture size in MB
+var pictures = prompt("How man pictures have you taken?",120); // Asks the user for how many pictures already on the SD Card
 
-gbtoMB = sdCardSize * 1000;
+gbtoMB = sdCardSize * 1000; // Converts the SD Card size from MB to GB
 
 totalPictures = gbtoMB / pictureSize - pictures;
 spaceUsed = totalPictures / gbtoMB * 100;
