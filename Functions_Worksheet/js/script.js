@@ -34,3 +34,4 @@ function stingCalc(weight){ // creates the function inputting the argument into 
 
 console.log("It takes " + parseInt(totalStings) + " bee stings to kill this animal.");
 // Prints the result variable, with the function result stored, to the console.
+// Parse Int operation parses the number in order to present a whole number instead of a long decimal.
