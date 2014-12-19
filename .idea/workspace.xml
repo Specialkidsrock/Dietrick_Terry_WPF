@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d88067-2d02-4702-a5c5-bb262858288c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" afterPath="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
     </list>
     <ignored path="Dietrick_Terry_WPF.iws" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="630">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -39,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Industry.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions/Screencast/Industry.xhtml">
+      <file leaf-file-name="Functions Worksheet.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions_Worksheet/Functions Worksheet.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37128714" vertical-offset="0" max-vertical-offset="606">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
               <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
@@ -118,8 +117,8 @@
         <option value="$PROJECT_DIR$/Functions/js/script.js" />
         <option value="$PROJECT_DIR$/Functions/Screencast/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Worksheet/Functions Worksheet.xhtml" />
-        <option value="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Functions/Screencast/Industry.xhtml" />
+        <option value="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
       </list>
     </option>
   </component>
@@ -803,28 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Worksheet/Functions Worksheet.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions/Screencast/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Worksheet/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -836,6 +817,24 @@
         <state vertical-scroll-proportion="0.37128714" vertical-offset="0" max-vertical-offset="606">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Worksheet/Functions Worksheet.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Worksheet/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="630">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

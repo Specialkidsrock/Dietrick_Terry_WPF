@@ -12,11 +12,14 @@ Functions - Worksheet
 var totalCirc = calcCircumference(5);
 
 
-function calcCircumference(radius){
-        var circumference = radius * 3.1419 * 2;
+function calcCircumference(radius){ // function used to solve the equation
+        var circumference = radius * Math.PI * 2;
         return circumference;
         console.log("The circumference of the circle is " + circumference + ".");
 
 }
 
 
+console.log(" The circumference of the circle is " + totalCirc + ".");
+
+calcCircumference(6);
